@@ -72,8 +72,8 @@ background-color: rgb(128, 138, 156);
 
 .grid2 {
     display: grid;
-    grid-template-rows: 5vh 30vh 30vh 30vh;
-    row-gap: 3vh;
+    grid-template-rows: 5vh 50vh 40vh;
+    row-gap: 5vh;
     grid-template-columns: 98vw;
     column-gap: 3vw;
 }
@@ -81,23 +81,17 @@ background-color: rgb(128, 138, 156);
 .objet1_grid2 {
     grid-gap: 20px;
     border:1px solid black;
-    background-color: rgb(255, 214, 186);
+    background-color: rgb(174, 207, 201);
     }
     
     .objet2_grid2 {
     grid-gap:20px;
     border:1px solid black;
-    background-color:rgb(174, 207, 201);
+    background-color:rgb(137, 176, 174);
     }
     
     .objet3_grid2 {
     grid-gap:20px;
     border:1px solid black;
-    background-color: rgb(137, 176, 174);;
+    background-color: rgb(128, 138, 156);
     }
-
-    .objet4_grid2 {
-        grid-gap:20px;
-        border:1px solid black;
-        background-color: rgb(128, 138, 156)
-        }
