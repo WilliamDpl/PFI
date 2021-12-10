@@ -52,20 +52,52 @@ tr td{
     row-gap: 3vh;
 }
 
-.objet_grid1 {
+.objet1_grid1 {
 grid-gap: 20px;
 border:1px solid black;
 background-color: rgb(174, 207, 201);
 }
 
-.objet_grid2 {
+.objet2_grid1 {
 grid-gap:20px;
 border:1px solid black;
 background-color: rgb(137, 176, 174);
 }
 
-.objet_grid3 {
+.objet3_grid1 {
 grid-gap:20px;
 border:1px solid black;
 background-color: rgb(128, 138, 156);
 }
+
+.grid2 {
+    display: grid;
+    grid-template-rows: 5vh 30vh 30vh 30vh;
+    row-gap: 3vh;
+    grid-template-columns: 98vw;
+    column-gap: 3vw;
+}
+
+.objet1_grid2 {
+    grid-gap: 20px;
+    border:1px solid black;
+    background-color: rgb(255, 214, 186);
+    }
+    
+    .objet2_grid2 {
+    grid-gap:20px;
+    border:1px solid black;
+    background-color:rgb(174, 207, 201);
+    }
+    
+    .objet3_grid2 {
+    grid-gap:20px;
+    border:1px solid black;
+    background-color: rgb(137, 176, 174);;
+    }
+
+    .objet4_grid2 {
+        grid-gap:20px;
+        border:1px solid black;
+        background-color: rgb(128, 138, 156)
+        }
