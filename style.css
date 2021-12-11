@@ -95,3 +95,25 @@ background-color: rgb(128, 138, 156);
     border:1px solid black;
     background-color: rgb(128, 138, 156);
     }
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    column-gap: 3vw;
+    grid-template-rows: 45vh 45vh;
+    row-gap: 10vh;
+}
+.objet1_grid3 {
+    border:1px solid black;
+    background-color: rgb(174, 207, 201);
+}
+
+.objet2_grid3 {
+    border:1px solid black;
+    background-color: rgb(137, 176, 174);
+}
+
+.objet3_grid3 {
+    border:1px solid black;
+    background-color: rgb(128, 138, 156);
+}
